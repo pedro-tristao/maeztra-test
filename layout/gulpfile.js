@@ -7,7 +7,7 @@ const del = require('del');
 
 function watchFiles(){
     gulp.watch('./src/js/**/*.js', js);
-    gulp.watch('./src/scss/*.scss', style);
+    gulp.watch('./src/scss/**/*.scss', style);
     gulp.watch('./src/html/*.html', html);
 }
 
@@ -28,12 +28,12 @@ function style(){
 }
 
 function html(){
-    return gulp.src('./src/html/*.html')
+    return gulp.src('./src/html/**/*.html')
     .pipe(gulp.dest('./dist/html'))
 }
 
 function js(){
-    return gulp.src('./src/js/index.js')
+    return gulp.src('./src/js/*.js')
     .pipe(concat('maeztra-test.main.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'))

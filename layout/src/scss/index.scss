@@ -1,3 +1,44 @@
-.lalala {
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
 }
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 8vw;
+}
+
+@media (max-width: 1250px) {
+  .header {
+    .container {
+      padding: 0 2vw;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .header {
+    .container {
+      padding: 0 5vw;
+    }
+  }
+}
+
+
+@import "./header/header.scss"
+
+
+
+
+
+  
