@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  background-color: #FAFAFA;
+}
+
 .container {
   padding: 0 8vw;
 }
@@ -58,6 +62,11 @@ a {
           opacity: 100;
         }
       }
+    }
+  }
+  &-dotted {
+    &.slick-slider {
+      margin-bottom: 0;
     }
   }
 }
@@ -110,7 +119,7 @@ a {
 
 @import "./header/header.scss";
 @import "./full-banner/full-banner.scss";
-
+@import "./tip-bar/tip-bar.scss";
 
 
 
