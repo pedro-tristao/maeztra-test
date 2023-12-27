@@ -1,0 +1,25 @@
+.full-banner {
+    &--desk {
+        display: block;
+        &--img {
+            width: 100%;
+        }
+    }
+    &--mob {
+        display: none;
+        &--img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .full-banner {
+        &--desk {
+            display: none;
+        }
+        &--mob {
+            display: block;
+        }
+    }
+  }
