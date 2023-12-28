@@ -7,7 +7,7 @@ Repositório criado para o projeto de teste para vaga de Desenvolvedor Front-End
 - Utilize **git flow init** e aceite todos os termos seguintes;
 
 ## Utilização:
-- Para rodar o projeto em ambiente de desenvolvimento, utilize: **npm run start**;
+- Para rodar o projeto em ambiente de desenvolvimento (watch), utilize: **npm run start**;
 
 - Para gerar os arquivos finais da build, utilize: **npm run build**;
 
