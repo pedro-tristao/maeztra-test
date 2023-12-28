@@ -79,7 +79,16 @@
             }
         }
     }
-
+    .slick {
+        &-prev {
+            left: 1vw;
+            top: 40%;
+        }
+        &-next {
+            right: 1vw;
+            top: 40%;
+        }
+    }
 }
 
 @media (max-width: 1050px) {

@@ -11,7 +11,7 @@ $('.shelf--products.slick').slick({
           slidesToShow: 1,
           centerMode: true,
           arrows: false,
-          centerPadding: '14px',
+          centerPadding: '0',
           slidesToScroll: 1
           }
         }

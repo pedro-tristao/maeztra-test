@@ -2,7 +2,7 @@ $('.partner--container--slick-mob').slick({
     infinite: false,
     arrows: false,
     centerMode: true,
-    centerPadding: '30px',
+    centerPadding: '5vw',
     slidesToShow: 1,
     mobileFirst: true,
     responsive: [
