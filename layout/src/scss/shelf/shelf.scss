@@ -1,0 +1,102 @@
+.shelf {
+    color: var(--color-2-500,#353535);
+    padding-top: 59px;
+    padding-bottom: 80px;
+    &--title {
+        h2 {
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 700;
+            text-align: center;
+            color: var(--color-2-500,#353535);
+            padding-bottom: 24px;
+        }
+    }
+    &--products {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &--item {
+            width: 20%;
+            padding-right: 16px;
+            max-width: 308px;
+            &:last-child {
+                padding: 0;
+            }
+            &--img {
+                width: 100%;
+                height: auto;
+            }
+            &--colors {
+                padding-top: 8px;
+                padding-left: 27px;
+                svg {
+                    cursor: pointer;
+                }
+            }
+            &--price {
+                padding-left: 27px;
+                span {
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                }
+            }
+            &--name {
+                padding-left: 27px;
+                padding-bottom: 8px;
+                padding-top: 2px;
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            &--description {
+                padding-left: 27px;
+                padding-bottom: 8px;
+                p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: #000000;
+                    opacity: 0.5;
+                }
+            }
+            &--button {
+                margin-left: 27px;
+                span {
+                    background: #faa500;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: normal;
+                    width: 100%;
+                    display: block;
+                    padding: 8px 0;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .shelf {
+        &.container {
+            padding: 0 5vw;
+        }
+        &--title {
+            padding-top: 18px;
+            h2 {
+                padding-bottom: 16px;
+            }
+        }
+        &--products {
+            &--item {
+                padding-right: 14px;
+            }
+        }
+    }
+  }
