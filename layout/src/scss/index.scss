@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Titillium+Web:wght@200;400;700&display=swap');
 
 * {
   margin: 0;
@@ -125,6 +125,7 @@ main {
 @import "./banner-text/banner-text.scss";
 @import "./newsletter/newsletter.scss";
 @import "./footer/footer.scss";
+@import "./modal/modal.scss";
 
 
 
